@@ -1,7 +1,6 @@
 import data.data_kasir;
 
 public class Main {
-
     public static void main(String[] args){
         System.out.println("Project PBO 2022");
 
