@@ -31,5 +31,6 @@ public class Main {
         DBbarang.view();
         System.out.println("==========overload======");
         DBbarang.view(1);
+        DBbarang.menu();
     }
 }

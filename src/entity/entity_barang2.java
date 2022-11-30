@@ -11,6 +11,14 @@ public class entity_barang2 extends entity_barang{
         this.stok = stok;
     }
 
+    public int getHarga() {
+        return harga;
+    }
+
+    public int getStok() {
+        return stok;
+    }
+
     public void setHarga(int harga) {
         this.harga = harga;
     }
