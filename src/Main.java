@@ -1,5 +1,6 @@
 import data.data_barang;
-import entity.entity_barang2;
+import data.data_kasir;
+
 public class Main {
     public static void main(String[] args){
         System.out.println("Project PBO 2022");
@@ -26,11 +27,14 @@ public class Main {
 
         //data barang
         data_barang DBbarang = new data_barang();
+        data_kasir Data_kasir = new data_kasir();
+        detail_transaksi
         DBbarang.create(1,"pepsodent",7000,1);
         DBbarang.create(2,"ciptadent",5000,12);
-        DBbarang.view();
-        System.out.println("==========overload======");
-        DBbarang.view(1);
+        Data_kasir.create("indy", 07434,"indy");
+        /*        DBbarang.view();*/
+/*        System.out.println("==========overload======");
+        DBbarang.view(1);*/
         DBbarang.menu();
     }
 }

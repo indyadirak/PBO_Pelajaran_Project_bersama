@@ -4,12 +4,12 @@ import entity.entity_kasir;
 import java.util.ArrayList;
 
 public class data_kasir {
-    private ArrayList<entity_kasir> data_kasir;
+    private ArrayList<entity_kasir> data_kasir = new ArrayList<entity_kasir>();
 
-    public data_kasir()
-    {
-        data_kasir = new ArrayList<entity_kasir>();
-    }
+//    public data_kasir()
+//    {
+//        data_kasir = new ArrayList<entity_kasir>();
+//    }
 
     public void create(String nama, int nip, String pass)
     {
@@ -89,6 +89,7 @@ public class data_kasir {
         else
         {
             System.out.println("NIP "+nip +" login berhasil");
+
         }
         return nipKasir;
     }
